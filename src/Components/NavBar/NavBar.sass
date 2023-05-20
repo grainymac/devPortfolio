@@ -1,0 +1,38 @@
+.navBar-container
+    position: fixed
+    height: 100px
+    width: 100%
+    top: 0
+    left: 0
+    z-index: 1
+    transition: .3s ease-in
+    overflow: hidden
+    background-color: #0000009c
+
+    .navBar
+        display: flex
+        justify-content: space-between
+        align-items: center
+        max-width: 1240px
+        margin: auto
+        height: 100%
+        padding: 0 1rem
+
+    .nav-menu 
+        display: flex
+        a
+            color: #ffffff
+
+    .nav-item
+        padding: 1rem
+        font-weight: 500
+        a:hover
+            padding-bottom: 12px
+            border-bottom: 3px solid yellow
+        .active
+            padding-bottom: 12px
+            border-bottom: 3px solid green
+
+
+
+
