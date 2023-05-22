@@ -1,5 +1,61 @@
-ul
-    list-style: none
+.contact-form
+    width: 100%
+
+    ul
+        padding: 0
+        margin: 0
+        list-style: none
+
+        li
+            margin-bottom: 10px
+            display: block
+            position: relative
+            animation: fadeInUp 2s 2s
+            animation-fill-mode: forwards
+            clear: both
+            border-color: #D7514D
+
+        li.half
+            width: 49%
+            margin-left: 2%
+            float: left
+            clear: none
+
+            &:first-child
+                margin-left: 0
+
+    input[type='text'],
+    input[type='email']
+        width: 100%
+        border: 0
+        background: #5A5E5E
+        height: 50px
+        font-size: 16px
+        color: #dee2de
+        padding: 0 20px
+        box-sizing: border-box
+
+    textarea
+        width: 100%
+        border: 0
+        background: #5A5E5E
+        height: 50px
+        font-size: 16px
+        color: #dee2de
+        padding: 20px
+        min-height: 150px
+        box-sizing: border-box
+
+    .flat-button
+        color: #dee2de
+        background-color: #5A5E5E
+        font: 11px
+        letter-spacing: 3px
+        text-decoration: none
+        padding: 8px 10px
+        border: 1px solid #dee2de
+        float: right
+        border-radius: 4px
 
 .contact-page
     display: flex
@@ -11,3 +67,6 @@ ul
 
 .contact-intro-text
     text-align: center
+    position: relative
+    top: 0
+    margin: 20px 0
