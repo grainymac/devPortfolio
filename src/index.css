@@ -1,3 +1,6 @@
+@import url('https://use.typekit.net/fqe5ypl.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -36,6 +39,13 @@ h1 {
   line-height: 1.1;
 }
 
+h2 {
+  font-size: 4rem;
+  font-family: flegrei, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -47,12 +57,20 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 20px;
 }
 
 @media (prefers-color-scheme: light) {
