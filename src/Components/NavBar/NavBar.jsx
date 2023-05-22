@@ -21,7 +21,7 @@ const NavBar = () => {
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
-                        <Link to='/' spy={true} smooth={true} offset={-100} duration={500} onclick={closeMenu}>Home</Link>
+                        <Link to='hero' spy={true} smooth={true} offset={-100} duration={500} onclick={closeMenu}>Home</Link>
                     </li>
                     <li className='nav-item'>
                         <Link to='about' spy={true} smooth={true} offset={-100} duration={500} onclick={closeMenu}>About</Link>
