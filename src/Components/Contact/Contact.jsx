@@ -21,7 +21,7 @@ const Contact = () => {
   return (
     <>
       <div className='contact-page' id='contact'>
-      <h2>Contact</h2>
+      <h2 className='contact-title'>Contact</h2>
         <p className='contact-intro-text'>
             I am free and available for full-time, part-time, and contract positions! I am also interested in freelance opportunities, especially creative and ambitious projects. If you have any other requests or questions, please do not hesitate to get in touch with me via the form below.
         </p>

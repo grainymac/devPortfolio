@@ -1,5 +1,9 @@
 import React from 'react'
 import './Skills.sass'
+import gsap from './assets/gsap-greensock.svg'
+import lightroom from './assets/adobe-lightroom-svgrepo-com.svg'
+import inDesign from './assets/adobe-indesign-svgrepo-com.svg'
+import planner from './assets/microsoft-planner-2019-present-.svg'
 
 const Skills = () => {
   return (
@@ -17,16 +21,20 @@ const Skills = () => {
 
           <img className='icon mui' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" alt='material ui icon'/>
 
+          <img className='icon gsap' src={gsap} alt='gsap icon'/>
+
           <img className='icon js' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt='javascript icon'/>
 
           <img className='icon ts' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" alt='typescript icon'/>
 
           <img className='icon react' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt='react icon'/>
 
-          <img className='icon next' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" alt='next.js icon'/>
+          <img className='icon next' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" alt='next.js icon'/>
 
           <img className='icon node' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" alt='node.js icon'/>
 
+          <img className='icon vue' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg" alt='vue.js icon'/>
+          
           <img className='icon graphql' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" alt='graphql icon'/>
 
           <img className='icon express' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt='express icon'/>
@@ -43,13 +51,24 @@ const Skills = () => {
 
           <img className='icon ai' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-line.svg" alt='illustrator icon'/>
 
+          <img className='icon lightroom' src={lightroom} alt='lightroom icon'/>
+
+          <img className='icon indesign' src={inDesign} alt='indesign icon'/>
+          
+          <img className='icon be' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/behance/behance-original.svg" alt='behance icon'/>
+
           <img className='icon trello' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" alt='trello icon'/>
+
+          <img className='icon planner' src={planner} alt='planner icon'/>
 
           <img className='icon canva' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" alt='canva icon'/>
 
           <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt='figma icon'/>
 
           <img className='icon vscode' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-plain.svg" alt='vscode icon'/>
+
+          <img className='icon azure' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt='azure icon'/>
+          
 
         </div>
       </div>
