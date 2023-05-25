@@ -6,14 +6,16 @@ import dokes from './assets/dokes.png'
 import theNeoteric from './assets/theNeoteric.png'
 import photoPortfolio from './assets/photographyPortfolio.png'
 import theBored from './assets/theBored.png'
+import rancid from './assets/rancid.png'
 
 const Work = () => {
   const slides = [
-    {url: `${discoverIt}`, title: 'DiscoverIt'},
-    {url: `${photoPortfolio}`, title: 'Photography Portfolio'},
-    {url: `${theNeoteric}`, title: 'The Neoteric'},
-    {url: `${dokes}`, title: 'Dokes'},
-    {url: `${theBored}`, title: 'The Bored'}
+    {url: `${discoverIt}`, title: 'DiscoverIt', github: 'https://github.com/grainymac/DiscoverIt-2208-FE'},
+    {url: `${photoPortfolio}`, title: 'Photography Portfolio', github: 'https://github.com/grainymac/photography-portfolio'},
+    {url: `${theNeoteric}`, title: 'The Neoteric', github: 'https://github.com/grainymac/theNeoteric'},
+    {url: `${dokes}`, title: 'Dokes', github: 'https://github.com/grainymac/Dokes'},
+    {url: `${rancid}`, title: 'Rancid Tomatillos', github: 'https://github.com/grainymac/rancidTomatillos'},
+    {url: `${theBored}`, title: 'The Bored', github: 'https://github.com/grainymac/theBored'}
   ]
 
   return (

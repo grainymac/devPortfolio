@@ -6,15 +6,18 @@ const slideStyles = {
     borderRadius: "10px",
     backgroundSize: "cover",
     backgroundPosition: "center",
+    transition: "transform 0.3s, box-shadow 0.3s",
+    transform: "scale(1)",
+    boxShadow: "none",
 };
 
 const rightArrowStyles = {
     position: "absolute",
     top: "50%",
     transform: "translate(0, -50%)",
-    right: "32px",
-    fontSize: "45px",
-    color: "#fff",
+    right: "-50px",
+    fontSize: "60px",
+    color: "#E8C700",
     zIndex: 1,
     cursor: "pointer",
 };
@@ -23,9 +26,9 @@ const leftArrowStyles = {
     position: "absolute",
     top: "50%",
     transform: "translate(0, -50%)",
-    left: "32px",
-    fontSize: "45px",
-    color: "#fff",
+    left: "-50px",
+    fontSize: "60px",
+    color: "#E8C700",
     zIndex: 1,
     cursor: "pointer",
 };
@@ -44,12 +47,23 @@ const dotStyle = {
     margin: "0 3px",
     cursor: "pointer",
     fontSize: "20px",
+    color: "#D7514D"
 };
 
 const WorkImageSlider = ({ slides }) => {
 
     const [currentIndex, setCurrentIndex] = useState(0);
-    
+
+    const handleHover = () => {
+        slideStyles.transform = "scale(1.1)";
+        slideStyles.boxShadow = "7px 10px 59px 11px rgba(255, 255, 255, 0.75)";
+    }
+
+    const handleHoverOut = () => {
+        slideStyles.transform = "scale(1)";
+        slideStyles.boxShadow = "none";
+    }
+
     const goToPrevious = () => {
         const isFirstSlide = currentIndex === 0;
         const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
@@ -81,9 +95,12 @@ const WorkImageSlider = ({ slides }) => {
                     ❱
                 </div>
             </div>
-            <div style={slideStylesWidthBackground}></div>
+            <a href={slides[currentIndex].github} target="_blank" rel="noopener noreferrer">
+                <div style={slideStylesWidthBackground} onMouseEnter={handleHover} onMouseLeave={handleHoverOut}></div>
+            </a>
             <div style={dotsContainerStyles}>
                 {slides.map((slide, slideIndex) => (
+
                     <div
                         style={dotStyle}
                         key={slideIndex}
