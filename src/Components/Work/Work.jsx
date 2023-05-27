@@ -7,6 +7,7 @@ import theNeoteric from './assets/theNeoteric.png'
 import photoPortfolio from './assets/photographyPortfolio.png'
 import theBored from './assets/theBored.png'
 import rancid from './assets/rancid.png'
+import 'animate.css'
 
 const Work = () => {
   const slides = [
@@ -21,7 +22,7 @@ const Work = () => {
   return (
     <>
       <div className='work-container' id='work'>
-      <h2 className='work-title'>Work</h2>
+      <h2 className='animate__pulse work-title'>Work</h2>
         <WorkImageSlider slides={slides} />
       </div>
     </>

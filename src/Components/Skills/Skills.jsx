@@ -4,12 +4,13 @@ import gsap from './assets/gsap-greensock.svg'
 import lightroom from './assets/adobe-lightroom-svgrepo-com.svg'
 import inDesign from './assets/adobe-indesign-svgrepo-com.svg'
 import planner from './assets/microsoft-planner-2019-present-.svg'
+import 'animate.css'
 
 const Skills = () => {
   return (
     <>
       <div id='skills'>
-        <h2 className='skills-title'>Skills</h2>
+        <h2 className='animate__pulse skills-title'>Skills</h2>
         <div className='skills-container'>
           <img className='icon html' title='html' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt='html icon'/>
 

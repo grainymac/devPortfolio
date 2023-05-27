@@ -41,13 +41,15 @@ const sliderStyles = {
 const dotsContainerStyles = {
     display: "flex",
     justifyContent: "center",
+    marginTop: "20px",
+    marginBottom: "100px"
 };
 
 const dotStyle = {
     margin: "0 3px",
     cursor: "pointer",
     fontSize: "20px",
-    color: "#D7514D"
+    color: "#D7514D",
 };
 
 const WorkImageSlider = ({ slides }) => {
