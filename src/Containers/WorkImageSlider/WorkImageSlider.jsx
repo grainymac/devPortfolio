@@ -17,7 +17,7 @@ const rightArrowStyles = {
     transform: "translate(0, -50%)",
     right: "-50px",
     fontSize: "60px",
-    color: "#E8C700",
+    color: "#D7514D",
     zIndex: 1,
     cursor: "pointer",
 };
@@ -28,7 +28,7 @@ const leftArrowStyles = {
     transform: "translate(0, -50%)",
     left: "-50px",
     fontSize: "60px",
-    color: "#E8C700",
+    color: "#D7514D",
     zIndex: 1,
     cursor: "pointer",
 };
