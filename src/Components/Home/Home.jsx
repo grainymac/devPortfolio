@@ -15,7 +15,6 @@ const Home = () => {
       <Skills />
       <Work />
       <Contact />
-      <div>Home</div>
     </>
   )
 }

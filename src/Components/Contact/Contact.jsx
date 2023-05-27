@@ -41,7 +41,7 @@ const Contact = () => {
                 <textarea placeholder='Message' name='message' required></textarea>
               </li>
               <li>
-                <input type='submit' value='SEND'/>
+                <input classname='submit-button' type='submit' value='SEND'/>
               </li>
             </ul>
           </form>

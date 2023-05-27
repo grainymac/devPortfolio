@@ -21,19 +21,19 @@ const NavBar = () => {
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
-                        <Link to='hero' spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Home</Link>
+                        <Link to='hero' spy={true} smooth={true} offset={-100} duration={900} onClick={closeMenu}>Home</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='about' spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>About</Link>
+                        <Link to='about' spy={true} smooth={true} offset={-100} duration={900} onClick={closeMenu}>About</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='skills' spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Skills</Link>
+                        <Link to='skills' spy={true} smooth={true} offset={-100} duration={900} onClick={closeMenu}>Skills</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='work' spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Work</Link>
+                        <Link to='work' spy={true} smooth={true} offset={-100} duration={900} onClick={closeMenu}>Work</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='contact' spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Contact</Link>
+                        <Link to='contact' spy={true} smooth={true} offset={-100} duration={900} onClick={closeMenu}>Contact</Link>
                     </li>
                 </ul>
             </nav>
