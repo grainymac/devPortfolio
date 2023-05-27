@@ -32,8 +32,6 @@ const Skills = () => {
           <img className='icon next' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" alt='next.js icon'/>
 
           <img className='icon node' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" alt='node.js icon'/>
-
-          <img className='icon vue' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg" alt='vue.js icon'/>
           
           <img className='icon graphql' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" alt='graphql icon'/>
 
@@ -65,10 +63,7 @@ const Skills = () => {
 
           <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt='figma icon'/>
 
-          <img className='icon vscode' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-plain.svg" alt='vscode icon'/>
-
-          <img className='icon azure' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt='azure icon'/>
-          
+          <img className='icon vscode' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-plain.svg" alt='vscode icon'/>          
 
         </div>
       </div>
