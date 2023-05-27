@@ -4,6 +4,7 @@ import gsap from './assets/gsap-greensock.svg'
 import lightroom from './assets/adobe-lightroom-svgrepo-com.svg'
 import inDesign from './assets/adobe-indesign-svgrepo-com.svg'
 import planner from './assets/microsoft-planner-2019-present-.svg'
+import xd from './assets/adobe-xd-logo-svgrepo-com.svg'
 import 'animate.css'
 
 const Skills = () => {
@@ -53,6 +54,8 @@ const Skills = () => {
           <img className='icon lightroom' src={lightroom} alt='lightroom icon'/>
 
           <img className='icon indesign' src={inDesign} alt='indesign icon'/>
+
+          <img className='icon xd' src={xd} alt='xd icon'/>
           
           <img className='icon be' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/behance/behance-original.svg" alt='behance icon'/>
 
