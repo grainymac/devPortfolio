@@ -7,35 +7,64 @@
     z-index: 1
     transition: .3s ease-in
     overflow: hidden
-    background-color: #000000ef
+    background-color: #000000f9
 
+.navBar
+    display: flex
+    justify-content: space-between
+    align-items: center
+    max-width: 1240px
+    margin: auto
+    height: 100%
+    padding: 0 1rem
+
+.nav-menu
+    display: flex
+
+    & a
+        color: #ffffff
+
+.nav-item
+    font-family: 'Poppins', sans-serif
+    font-size: 2rem
+    padding: 1rem
+    font-weight: 500
+
+    & a:hover
+        padding-bottom: 12px
+        border-bottom: 3px solid yellow
+        cursor: pointer
+
+    & .active
+        padding-bottom: 12px
+        border-bottom: 3px solid green
+
+/* Responsive Styles */
+
+@media (max-width: 768px)
     .navBar
-        display: flex
-        justify-content: space-between
-        align-items: center
-        max-width: 1240px
-        margin: auto
-        height: 100%
-        padding: 0 1rem
+        flex-direction: column
+        align-items: flex-start
+        padding: 0.5rem
 
-    .nav-menu 
-        display: flex
-        a
-            color: #ffffff
+    .nav-menu
+        flex-direction: column
+        align-items: flex-start
+        margin-top: 1rem
 
     .nav-item
-        font-family: 'Poppins', sans-serif
-        font-size: 2rem
-        padding: 1rem
-        font-weight: 500
-        a:hover
-            padding-bottom: 12px
-            border-bottom: 3px solid yellow
-            cursor: pointer
-        .active
-            padding-bottom: 12px
-            border-bottom: 3px solid green
+        padding: 0.5rem
 
+    @media (max-width: 480px)
+    .navBar
+        flex-direction: row
+        align-items: center
+        padding: 0.5rem
 
+    .nav-menu
+        flex-direction: row
+        align-items: center
+        margin-top: 1rem
 
-
+    .nav-item
+        padding: 0.5rem
