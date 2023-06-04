@@ -106,15 +106,11 @@ li {
   }
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+@media (max-width: 767px) {
+  body {
+    flex-direction: column; /* Change flex-direction to stack items vertically */
+    align-items: stretch; /* Stretch items to fill the width */
+    justify-content: center; /* Center items vertically */
+    padding: 20px; /* Add some padding for better readability */
   }
 }
