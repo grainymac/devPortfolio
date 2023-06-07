@@ -10,7 +10,7 @@ import 'animate.css'
 const Skills = () => {
   return (
     <>
-      <div id='skills'>
+      <div className='skills' id='skills'>
         <h2 className='animate__pulse skills-title'>Skills</h2>
         <div className='skills-container'>
           <img className='icon html' title='html' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt='html icon'/>

@@ -106,11 +106,19 @@ li {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
   body {
-    flex-direction: column; /* Change flex-direction to stack items vertically */
-    align-items: stretch; /* Stretch items to fill the width */
-    justify-content: center; /* Center items vertically */
-    padding: 20px; /* Add some padding for better readability */
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 500px
+  }
+
+  .root {
+    width: 500px;
+    padding: 0;
+    margin: 0;
   }
 }
