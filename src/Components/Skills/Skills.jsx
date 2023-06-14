@@ -13,7 +13,7 @@ const Skills = () => {
       <div className='skills' id='skills'>
         <h2 className='animate__pulse skills-title'>Skills</h2>
         <div className='skills-container'>
-          <img className='icon html' title='html' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt='html icon'/>
+          <img className='icon html' data-tooltip='HTML' title='html' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt='html icon'/>
 
           <img className='icon css' title='css' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt='css icon'/>
 
