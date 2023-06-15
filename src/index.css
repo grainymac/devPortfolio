@@ -156,7 +156,7 @@ li {
     color: #3E80CF;
     height: 66%;
   }
-
+/* 
   &:after {
     height: 33%;
     color: $blue;
@@ -166,5 +166,5 @@ li {
       3px 5px 0px #3E80CF, 6px 5px 0px #3E80CF,
       -1px 2px 0 black, 0 3px 0 #3E80CF, 1px 4px 0 #3E80CF, 2px 5px 0px #3E80CF,
       2px -1px 0 #3E80CF, 3px 0 0 #3E80CF, 4px 1px 0 #3E80CF, 5px 2px 0px #3E80CF, 6px 3px 0 #3E80CF, 7px 4px 0 #3E80CF;
-  }
+  } */
 }
