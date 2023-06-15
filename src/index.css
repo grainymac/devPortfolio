@@ -127,8 +127,8 @@ li {
 .hero-title {
   color: #43a07a;
   text-shadow:
-    -1px -1px 0 #43a07a, 1px -1px 0 #43a07a, -1px 1px 0 #D7514D, 1px 1px 0 #D7514D,
-    1px 0px 0px #3E80CF, 0px 1px 0px #3E80CF, 2px 1px 0px #3E80CF, 1px 2px 0px #3E80CF, 3px 2px 0px #3E80CF, 2px 3px 0px #43a07a, 4px 3px 0px #43a07a, 3px 4px 0px #43a07a, 5px 4px 0px #43a07a,
+    -1px -1px 0 #D7514D, 1px -1px 0 #D7514D, -1px 1px 0 #D7514D, 1px 1px 0 #D7514D,
+    1px 0px 0px #3E80CF, 0px 1px 0px #3E80CF, 2px 1px 0px #3E80CF, 1px 2px 0px #3E80CF, 3px 2px 0px #3E80CF, 2px 3px 0px #D7514D, 4px 3px 0px #D7514D, 3px 4px 0px #43a07a, 5px 4px 0px #43a07a,
     3px 5px 0px #D7514D, 6px 5px 0px #D7514D,
     -1px 2px 0 #000, 0 3px 0 #43a07a, 1px 4px 0 #D7514D, 2px 5px 0px #D7514D,
     2px -1px 0 #D7514D, 3px 0 0 #D7514D, 4px 1px 0 #D7514D, 5px 2px 0px #D7514D, 6px 3px 0 #D7514D, 7px 4px 0 #43a07a,
