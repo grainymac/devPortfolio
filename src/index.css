@@ -126,12 +126,12 @@ li {
 
 .hero-title {
   text-shadow:
-    -1px -1px 0 #6e1f58, 1px -1px 0 #6e1f58, -1px 1px 0 #6e1f58, 1px 1px 0 #6e1f58,
-    1px 0px 0px #65f283, 0px 1px 0px #65f283, 2px 1px 0px #65f283, 1px 2px 0px #65f283, 3px 2px 0px #65f283, 2px 3px 0px #65f283, 4px 3px 0px #65f283, 3px 4px 0px #65f283, 5px 4px 0px #65f283,
-    3px 5px 0px #6e1f58, 6px 5px 0px #6e1f58,
-    -1px 2px 0 #000, 0 3px 0 #6e1f58, 1px 4px 0 #6e1f58, 2px 5px 0px #6e1f58,
-    2px -1px 0 #6e1f58, 3px 0 0 #6e1f58, 4px 1px 0 #6e1f58, 5px 2px 0px #6e1f58, 6px 3px 0 #6e1f58, 7px 4px 0 #6e1f58,
-    10px 10px 4px #dac249;
+    -1px -1px 0 #3E80CF, 1px -1px 0 #3E80CF, -1px 1px 0 #3E80CF, 1px 1px 0 #3E80CF,
+    1px 0px 0px #43a07a, 0px 1px 0px #43a07a, 2px 1px 0px #43a07a, 1px 2px 0px #43a07a, 3px 2px 0px #43a07a, 2px 3px 0px #43a07a, 4px 3px 0px #43a07a, 3px 4px 0px #43a07a, 5px 4px 0px #43a07a,
+    3px 5px 0px #3E80CF, 6px 5px 0px #3E80CF,
+    -1px 2px 0 #000, 0 3px 0 #3E80CF, 1px 4px 0 #3E80CF, 2px 5px 0px #3E80CF,
+    2px -1px 0 #3E80CF, 3px 0 0 #3E80CF, 4px 1px 0 #3E80CF, 5px 2px 0px #3E80CF, 6px 3px 0 #3E80CF, 7px 4px 0 #3E80CF,
+    10px 10px 4px #E8C700;
 
   &:after,
   &:before {
@@ -147,13 +147,13 @@ li {
   &:before {
 
     text-shadow:
-      -1px -1px 0 #9e132c, 1px -1px 0 #9e132c, -1px 1px 0 #9e132c, 1px 1px 0 #9e132c,
-      1px 0px 0px #f5b10b, 0px 1px 0px #f5b10b, 2px 1px 0px #f5b10b, 1px 2px 0px #f5b10b, 3px 2px 0px #f5b10b, 2px 3px 0px #f5b10b, 4px 3px 0px #f5b10b, 3px 4px 0px #f5b10b, 5px 4px 0px #f5b10b,
-      3px 5px 0px #9e132c, 6px 5px 0px #9e132c,
-      -1px 2px 0 black, 0 3px 0 #9e132c, 1px 4px 0 #9e132c, 2px 5px 0px #9e132c,
-      2px -1px 0 #9e132c, 3px 0 0 #2f3e9c, 4px 1px 0 #9e132c, 5px 2px 0px #9e132c, 6px 3px 0 #9e132c, 7px 4px 0 #9e132c,
+      -1px -1px 0 #D7514D, 1px -1px 0 #D7514D, -1px 1px 0 #D7514D, 1px 1px 0 #D7514D,
+      1px 0px 0px #E8C700, 0px 1px 0px #E8C700, 2px 1px 0px #E8C700, 1px 2px 0px #E8C700, 3px 2px 0px #E8C700, 2px 3px 0px #E8C700, 4px 3px 0px #E8C700, 3px 4px 0px #E8C700, 5px 4px 0px #E8C700,
+      3px 5px 0px #D7514D, 6px 5px 0px #D7514D,
+      -1px 2px 0 black, 0 3px 0 #D7514D, 1px 4px 0 #D7514D, 2px 5px 0px #D7514D,
+      2px -1px 0 #D7514D, 3px 0 0 #3E80CF, 4px 1px 0 #D7514D, 5px 2px 0px #D7514D, 6px 3px 0 #D7514D, 7px 4px 0 #D7514D,
       10px 10px 4px rgba(#6af177, .8);
-    color: #65f283;
+    color: #43a07a;
     height: 66%;
   }
 
@@ -161,10 +161,10 @@ li {
     height: 33%;
     color: $blue;
     text-shadow:
-      -1px -1px 0 #2f3e9c, 1px -1px 0 #2f3e9c, -1px 1px 0 #2f3e9c, 1px 1px 0 #2f3e9c,
-      1px 0px 0px $red, 0px 1px 0px $red, 2px 1px 0px $red, 1px 2px 0px $red, 3px 2px 0px $red, 2px 3px 0px $red, 4px 3px 0px $red, 3px 4px 0px $red, 5px 4px 0px $red,
-      3px 5px 0px #2f3e9c, 6px 5px 0px #2f3e9c,
-      -1px 2px 0 black, 0 3px 0 #2f3e9c, 1px 4px 0 #2f3e9c, 2px 5px 0px #2f3e9c,
-      2px -1px 0 #2f3e9c, 3px 0 0 #2f3e9c, 4px 1px 0 #2f3e9c, 5px 2px 0px #2f3e9c, 6px 3px 0 #2f3e9c, 7px 4px 0 #2f3e9c;
+      -1px -1px 0 #3E80CF, 1px -1px 0 #3E80CF, -1px 1px 0 #3E80CF, 1px 1px 0 #3E80CF,
+      1px 0px 0px #D7514D, 0px 1px 0px #D7514D, 2px 1px 0px #D7514D, 1px 2px 0px #D7514D, 3px 2px 0px #D7514D, 2px 3px 0px #D7514D, 4px 3px 0px #D7514D, 3px 4px 0px #D7514D, 5px 4px 0px #D7514D,
+      3px 5px 0px #3E80CF, 6px 5px 0px #3E80CF,
+      -1px 2px 0 black, 0 3px 0 #3E80CF, 1px 4px 0 #3E80CF, 2px 5px 0px #3E80CF,
+      2px -1px 0 #3E80CF, 3px 0 0 #3E80CF, 4px 1px 0 #3E80CF, 5px 2px 0px #3E80CF, 6px 3px 0 #3E80CF, 7px 4px 0 #3E80CF;
   }
 }
