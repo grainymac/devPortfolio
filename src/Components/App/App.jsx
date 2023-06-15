@@ -4,6 +4,8 @@ import Home from '../Home/Home'
 import Work from '../Work/Work'
 import Contact from '../Contact/Contact'
 import About from '../About/About'
+import UnderConstruction from '../ErrorHandling/UnderConstruction'
+import BadURL from '../ErrorHandling/BadURL'
 
 const App = () => {
 
@@ -14,6 +16,8 @@ const App = () => {
       <Route path='/about' element={ <About /> } />
       <Route path='/work' element={ <Work /> } />
       <Route path='/contact' element={ <Contact /> } />
+      <Route path='/blog' element={<UnderConstruction />} />
+      <Route path='/*' element={<BadURL />} />
     </Routes>
     </>
   )
