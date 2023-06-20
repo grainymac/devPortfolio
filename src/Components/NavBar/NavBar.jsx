@@ -33,6 +33,9 @@ const NavBar = () => {
                         <Link to='work' spy={true} smooth={true} offset={-100} duration={900} onClick={closeMenu}>Work</Link>
                     </li>
                     <li className='nav-item'>
+                        <Link to='/blog' spy={false} smooth={true} offset={-100} duration={900} onClick={closeMenu}>Blog</Link>
+                    </li>
+                    <li className='nav-item'>
                         <Link to='contact' spy={true} smooth={true} offset={-100} duration={900} onClick={closeMenu}>Contact</Link>
                     </li>
                 </ul>

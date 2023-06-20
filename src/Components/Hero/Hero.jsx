@@ -7,6 +7,11 @@ const Hero = () => {
         <>
             <div className='hero' id='hero'>
                 <h1 className='animate__fadeInDown hero-title'>IAN MAC</h1>
+                <div>
+                    <p>
+                        
+                    </p>
+                </div>
             </div>
         </>
     )
