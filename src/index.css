@@ -117,7 +117,7 @@ li {
     width: 480px
   }
 
-  .root {
+  :root {
     width: 480px;
     padding: 0;
     margin: 0;
