@@ -1,5 +1,6 @@
 .about-page
     margin: auto
+    margin-top: 300px
     width: 100%
     margin-bottom: 100px
 
@@ -7,8 +8,8 @@
     width: 100%
     margin: 0
     display: grid
-    grid-template-columns: 1fr 2fr
-    grip-column-gap: 20px
+    grid-template-columns: 1fr 1fr
+    grip-column-gap: 100px
 
 .profile-photo
     align-self: center
@@ -34,11 +35,23 @@
     display: flex
     flex-direction: column
     justify-content: center
+    align-items: center
     text-align: left
     width: 100%
-    padding: 0 15px
+    padding: 15px 15px
     margin: 20px 0
     filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5))
+
+.about-button
+    border-radius: 2rem
+    background-color: #43a07a
+    border: none
+
+    &:hover
+        background-color: #000
+        cursor: pointer
+        color:#43a07a
+        border: none
 
 @media (max-width: 480px)
     .about-page
