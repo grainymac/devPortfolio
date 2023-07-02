@@ -5,7 +5,7 @@
     margin-bottom: 100px
 
 .about-container
-    width: auto
+    width: 90%
     margin: 0 50px
     display: flex
     flex-direction: row
@@ -44,9 +44,17 @@
     filter: drop-shadow(0.35rem 0.5rem 1rem rgba(0, 0, 0, 0.5))
 
 .about-button
-    border-radius: 2rem
     background-color: #43a07a
     border: none
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+    text-shadow: 0px 1px 0px #ffffff
+    filter: dropshadow(color=#ffffff, offx=0px, offy=1px)
+    -webkit-box-shadow: inset 0 1px 0 #5bd8a4, 0 10px 0 #2e6f54
+    -moz-box-shadow: inset 0 1px 0 #5bd8a4, 0 10px 0 #2e6f54
+    box-shadow: inset 0 1px 0 #5bd8a4, 0 10px 0 #2e6f54
+    -webkit-border-radius: 1rem
+    -moz-border-radius: 1rem
+    border-radius: 1rem
 
     &:hover
         background-color: #000
