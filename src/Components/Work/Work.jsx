@@ -20,12 +20,12 @@ const Work = () => {
   ]
 
   return (
-    <>
-      <div className='work-container' id='work'>
+    <div className='work' id='work'>
       <h2 className='animate__pulse work-title'>Work</h2>
+      <div className='work-container'>
         <WorkImageSlider slides={slides} />
       </div>
-    </>
+    </div>
   )
 }
 
