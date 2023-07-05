@@ -108,7 +108,7 @@ const WorkImageSlider = ({ slides }) => {
 
                     <div>
                         <div style={dotStyle} key={slideIndex} onClick={() => goToSlide(slideIndex)}>
-                            <h3 className='slide-title'> ●{slide.title}● </h3>
+                            <h3 className='slide-title'> {slide.title} </h3>
                         </div>
                     </div>
 
