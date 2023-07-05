@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import '/WorkImageSlider.sass'
 
 const slideStyles = {
     width: "100%",
@@ -107,8 +108,8 @@ const WorkImageSlider = ({ slides }) => {
 
                     <div>
                         <div style={dotStyle} key={slideIndex} onClick={() => goToSlide(slideIndex)}>
-                            <h3> ●{slide.title}● </h3>
-                            </div>
+                            <h3 className='slide-title'> ●{slide.title}● </h3>
+                        </div>
                     </div>
 
                 ))}
