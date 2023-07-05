@@ -106,8 +106,7 @@ const WorkImageSlider = ({ slides }) => {
                 {slides.map((slide, slideIndex) => (
 
                     <div>
-
-                        <div style={dotStyle} key={slideIndex} onClick={() => goToSlide(slideIndex)}>${slide.title}</div>
+                        <div style={dotStyle} key={slideIndex} onClick={() => goToSlide(slideIndex)}>●{slide.title}●</div>
                     </div>
 
                 ))}
