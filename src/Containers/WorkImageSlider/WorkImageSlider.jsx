@@ -110,7 +110,7 @@ const WorkImageSlider = ({ slides }) => {
 
                     <div>
                         <div className='slide-title-container' style={dotStyle} key={slideIndex} onClick={() => goToSlide(slideIndex)}>
-                            <h3 className='slide-title animate__fadeIn'> {slide.title} </h3>
+                            <h3 className='slide-title animate__animated animate__fadeIn'> {slide.title} </h3>
                         </div>
                     </div>
 
