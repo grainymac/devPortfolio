@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './WorkImageSlider.sass'
+import 'animate.css'
+
 
 const slideStyles = {
     width: "100%",
