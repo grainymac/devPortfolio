@@ -16,7 +16,7 @@ const About = () => {
             <p>
             I'm a front-end developer obsessed with creating beautiful, functional user interfaces with React.js and SCSS. I'm a creative individual with a wide range of skills and interests, so I'm able to express myself through several mediums, each of which informs and enhances the others. My background in graphic design gives me a unique perspective on my work, and I love finding innovative ways to merge design with coding. Being creative keeps me on my toes, pushing my capabilities and thinking outside the box. Ultimately, I want to be part of a team that develops solutions and applications that make a positive impact on people. My ambition and commitment to continuous learning will drive me forward in my career as a software developer despite this hurdle.
             </p>
-            <a href='https://resume.creddle.io/resume/5l3w33n9sze'>
+            <a href='https://docs.google.com/document/d/1CsQ122sCFAAtkva6TTNYb12MTcuGJygApacnhaMeo5k/edit?usp=sharing'>
               <button className='about-button'>RESUME</button>
             </a>
           </div>
