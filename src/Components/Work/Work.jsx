@@ -7,10 +7,12 @@ import theNeoteric from './assets/theNeoteric.png'
 import photoPortfolio from './assets/photographyPortfolio.png'
 import theBored from './assets/theBored.png'
 import rancid from './assets/rancid.png'
+import darkWeather from './assets/darkWeather.PNG'
 import 'animate.css'
 
 const Work = () => {
   const slides = [
+    {url: `${darkWeather}`, title: 'darkWeather', github: 'https://github.com/grainymac/darkWeather'},
     {url: `${discoverIt}`, title: 'DiscoverIt', github: 'https://github.com/grainymac/DiscoverIt-2208-FE'},
     {url: `${photoPortfolio}`, title: 'Photography Portfolio', github: 'https://github.com/grainymac/photography-portfolio'},
     {url: `${theNeoteric}`, title: 'The Neoteric', github: 'https://github.com/grainymac/theNeoteric'},
