@@ -113,7 +113,6 @@ const WorkImageSlider = ({ slides }) => {
                             <h3 className='slide-title animate__animated animate__fadeIn'> {slide.title} </h3>
                         </div>
                     </div>
-
                 ))}
             </div>
         </div>
