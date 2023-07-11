@@ -61,6 +61,48 @@
         color:#43a07a
         border: none
 
+.about-card
+    position: absolute
+    top: 50%
+    left: 50%
+    width: 350px
+    height: 350px
+    transform: translate(-50%, -50%) translateZ(0)
+    border-radius: 3px
+    box-shadow: 0 1px 4px rgba($black, .3)
+    overflow: hidden
+
+.info
+    width: auto
+    height: 350px
+    position: relative
+    padding: 14px 24px
+    background: #fff
+    transition: .4s .15s cubic-bezier(.17,.67,.5,1.03)
+
+.about-name-title
+    position: relative
+    margin: 10px 0
+    letter-spacing: 3px
+    color: #000
+    font-size: 1rem
+    text-transform: uppercase
+    text-shadow: 0 0 0px lighten(#152536, 20)
+
+.about-job-title
+    margin-bottom: 10px
+    text-transform: uppercase
+    font-size: 0.85rem
+
+.about-sub-title
+    display: inline-block
+    margin-bottom: 24px
+    padding-bottom: 24px
+    border-bottom: 1px solid #000
+    opacity: 0
+    transition: .5s .25s cubic-bezier(.17,.67,.5,1.03)
+
+
 @media (max-width: 480px)
     .about-page
         display: flex

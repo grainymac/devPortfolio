@@ -10,7 +10,15 @@ const About = () => {
       <div className='about-page' id='about'>
         <h2 className='animate__pulse about-title'>About</h2>
         <div className='about-container'>
-          <img className='profile-photo' src={Profile} alt='profile photo' />
+          <article className='about-card'>
+            <div className='thumb'></div>
+            <div className='info'>
+              <h2 className='about-name-title'>Ian McIntosh <span></span></h2>
+              <h3 className='about-job-title'>Frontend Developer/Designer</h3>
+              <h4 className='about-sub-title'>Photographer | Musician | Artist</h4>
+            </div>
+          </article>
+          {/* <img className='profile-photo' src={Profile} alt='profile photo' /> */}
           <div className='about-text-container'>
             <span className='line'></span>
             <p>
