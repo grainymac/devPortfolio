@@ -2,7 +2,6 @@ import React from 'react'
 import './About.sass'
 import Profile from './images/profile.jpg'
 import 'animate.css'
-import { FaTwitter } from 'react-icons/fa'
 
 
 const About = () => {
@@ -11,18 +10,7 @@ const About = () => {
       <div className='about-page' id='about'>
         <h2 className='animate__pulse about-title'>About</h2>
         <div className='about-container'>
-
-          <div className='profile-photo'>
-            <img className='profile-photo-image' src={Profile} alt='profile photo' />
-            <span className='rectangle-1'>
-              <span className='shadow-1'></span>
-              <p>Ian McIntosh</p>
-            </span>
-            <span className='rectangle-2'>
-              <span className='shadow-2'></span>
-            </span>
-          </div>
-
+          <img className='profile-photo' src={Profile} alt='profile photo' />
           <div className='about-text-container'>
             <span className='line'></span>
             <p>
