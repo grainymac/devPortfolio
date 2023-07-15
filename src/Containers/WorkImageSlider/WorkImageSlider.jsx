@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import './WorkImageSlider.sass'
 import 'animate.css'
 
+let counter = 0
 
 const slideStyles = {
     width: "100%",
@@ -108,7 +109,7 @@ const WorkImageSlider = ({ slides }) => {
             <div style={dotsContainerStyles}>
                 {slides.map((slide, slideIndex) => (
 
-                    <div>
+                    <div key={slideIndex}>
                         <div className='slide-title-container' style={dotStyle} key={slideIndex} onClick={() => goToSlide(slideIndex)}>
                             <h3 className='slide-title animate__animated animate__fadeIn'> {slide.title} </h3>
                         </div>
