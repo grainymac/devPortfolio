@@ -15,11 +15,11 @@ const About = () => {
           <div className='about-text-container'>
             <div className='socials'>
               <ul className='social-links'>
-                <li><a href='https://www.linkedin.com/in/ian-mcintosh-texas/'><FaLinkedinIn /></a></li>
-                <li><a href='https://twitter.com/ianmac__'><FaTwitter /></a></li>
-                <li><a href='https://github.com/grainymac'><FaGithub /></a></li>
-                <li><a href='https://www.facebook.com/profile.php?id=100093465405779'><FaFacebook /></a></li>
-                <li><a href='https://www.behance.net/ianmac__'><FaBehance /></a></li>
+                <li><a target='_blank' href='https://www.linkedin.com/in/ian-mcintosh-texas/'><FaLinkedinIn /></a></li>
+                <li><a target='_blank' href='https://twitter.com/ianmac__'><FaTwitter /></a></li>
+                <li><a target='_blank' href='https://github.com/grainymac'><FaGithub /></a></li>
+                <li><a target='_blank' href='https://www.facebook.com/profile.php?id=100093465405779'><FaFacebook /></a></li>
+                <li><a target='_blank' href='https://www.behance.net/ianmac__'><FaBehance /></a></li>
               </ul>
             </div>
             <span className='line'></span>
