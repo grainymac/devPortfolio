@@ -12,13 +12,13 @@ import 'animate.css'
 
 const Work = () => {
   const slides = [
-    {url: `${darkWeather}`, title: 'darkWeather', github: 'https://github.com/grainymac/darkWeather'},
-    {url: `${discoverIt}`, title: 'DiscoverIt', github: 'https://github.com/grainymac/DiscoverIt-2208-FE'},
+    {url: `${darkWeather}`, title: 'darkWeather', github: 'https://dark-weather-two.vercel.app/'},
+    {url: `${discoverIt}`, title: 'DiscoverIt', github: 'https://discoverit2208.vercel.app/'},
     {url: `${photoPortfolio}`, title: 'Photography Portfolio', github: 'https://github.com/grainymac/photography-portfolio'},
     {url: `${theNeoteric}`, title: 'The Neoteric', github: 'https://github.com/grainymac/theNeoteric'},
     {url: `${dokes}`, title: 'Dokes', github: 'https://github.com/grainymac/Dokes'},
-    {url: `${rancid}`, title: 'Rancid Tomatillos', github: 'https://github.com/grainymac/rancidTomatillos'},
-    {url: `${theBored}`, title: 'The Bored', github: 'https://github.com/grainymac/theBored'}
+    {url: `${rancid}`, title: 'Rancid Tomatillos', github: 'https://rancid-tomatillos-wheat.vercel.app/'},
+    {url: `${theBored}`, title: 'The Bored', github: 'https://the-bored.vercel.app/'}
   ]
 
   return (
