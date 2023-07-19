@@ -36,6 +36,9 @@ const NavBar = () => {
                     <li className='nav-item animate__fadeIn'>
                         <Link to='contact' spy={true} smooth={true} offset={-100} duration={900} onClick={closeMenu}>Contact</Link>
                     </li>
+                    <li className='nav-item animate__fadeIn'>
+                        <a href='https://www.ianmac.live/blog' target='_blank'>Blog</a>
+                    </li>
                 </ul>
             </nav>
         </div>
