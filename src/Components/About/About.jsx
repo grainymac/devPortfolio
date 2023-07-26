@@ -24,8 +24,8 @@ const About = () => {
             </div>
             <span className='line'></span>
             <p>
-            Front-end Engineering graduate with fundamental knowledge of software design, development, and testing. Seeking to utilize broad creative background with excellent analytical, technical, and programming skills to
-            thrive as a software engine
+            Front-end Engineering graduate with fundamental knowledge of software design, development, and testing. Seeking to utilize a broad creative background with excellent analytical, technical, and programming skills to
+            thrive as a software engineer.
             </p>
             <span className='line'></span>
             <p>I run a freelance development/design service called <em>DarkDad</em>. <em>DarkDad</em> offers clients ux/ui designs, web management and support options, custom web application solutions, and custom graphic designs ranging from social media banners, flyers, and website assets</p>
