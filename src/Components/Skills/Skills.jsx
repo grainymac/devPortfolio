@@ -34,7 +34,7 @@ const Skills = () => {
           
           <img className='icon vite animate__jello' title='Vite.js' src={vite} alt='vite.js icon'/>
 
-          <img className='icon next animate__jello' title='Next.js' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" alt='next.js icon'/>
+          <img className='icon next animate__jello' title='Next.js' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt='next.js icon'/>
 
           <img className='icon node animate__jello' title='Node.js' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" alt='node.js icon'/>
           
