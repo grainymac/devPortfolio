@@ -36,12 +36,13 @@ const Skills = () => {
 
           <img className='icon next animate__jello' title='Next.js' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" alt='next.js icon'/>
 
-
           <img className='icon node animate__jello' title='Node.js' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" alt='node.js icon'/>
           
           <img className='icon graphql animate__jello' title='GraphQL' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" alt='graphql icon'/>
 
           <img className='icon express animate__jello' title='Express.js' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt='express icon'/>
+
+          <img className='icon firebase animate__jello' title='Firebase' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt='firebase icon'/>
 
           <img className='icon circle animate__jello' title='CircleCI' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/circleci/circleci-plain.svg" alt='circleci icon'/>
 

@@ -29,7 +29,7 @@ const About = () => {
             </p>
             <span className='line'></span>
             <p>I run a freelance development/design service called <em>DarkDad</em>. <em>DarkDad</em> offers clients ux/ui designs, web management and support options, custom web application solutions, and custom graphic designs ranging from social media banners, flyers, and website assets</p>
-            <a href='/IanMcIntoshResume.pdf'>
+            <a href='/IanMcIntoshResume.pdf' target='_blank'>
               <button className='about-button'>RESUME</button>
             </a>
           </div>
