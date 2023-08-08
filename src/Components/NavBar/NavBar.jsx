@@ -39,6 +39,9 @@ const NavBar = () => {
                     <li className='nav-item animate__fadeIn'>
                         <a href='https://www.ianmac.live/blog' target='_blank'>Blog</a>
                     </li>
+                    <li className='nav-item animate__fadeIn'>
+                        <a href='https://www.ianmac.live/' target='_blank'>Photography</a>
+                    </li>
                 </ul>
             </nav>
         </div>
