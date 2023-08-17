@@ -34,13 +34,13 @@ const Skills = () => {
           
           <img className='icon vite animate__jello' title='Vite.js' src={vite} alt='vite.js icon'/>
 
-          <img className='icon next animate__jello' title='Next.js' src="https://www.svgrepo.com/show/354113/nextjs-icon.svg" alt='next.js icon'/>
+          {/* <img className='icon next animate__jello' title='Next.js' src="https://www.svgrepo.com/show/354113/nextjs-icon.svg" alt='next.js icon'/> */}
 
           <img className='icon node animate__jello' title='Node.js' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" alt='node.js icon'/>
           
           <img className='icon graphql animate__jello' title='GraphQL' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" alt='graphql icon'/>
 
-          <img className='icon express animate__jello' title='Express.js' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt='express icon'/>
+          {/* <img className='icon express animate__jello' title='Express.js' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt='express icon'/> */}
 
           <img className='icon firebase animate__jello' title='Firebase' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt='firebase icon'/>
 
@@ -50,7 +50,7 @@ const Skills = () => {
 
           <img className='icon git animate__jello' title='Git' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" alt='git icon'/>
 
-          <img className='icon md animate__jello' title='Markdown' src="https://www.svgrepo.com/show/327374/logo-markdown.svg" alt='markdown icon'/>
+          {/* <img className='icon md animate__jello' title='Markdown' src="https://www.svgrepo.com/show/327374/logo-markdown.svg" alt='markdown icon'/> */}
 
           <img className='icon ps animate__jello' title='Photoshop' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-line.svg" alt='photoshop icon'/>
 
