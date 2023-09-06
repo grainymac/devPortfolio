@@ -19,17 +19,16 @@ const About = () => {
                 {/* <li><a target='_blank' href='https://twitter.com/ianmac__'><FaTwitter /></a></li> */}
                 <li><a target='_blank' href='https://github.com/grainymac'><FaGithub /></a></li>
                 <li><a target='_blank' href='https://www.facebook.com/profile.php?id=100093465405779'><FaFacebook /></a></li>
-                <li><a target='_blank' href='https://www.behance.net/ianmac__'><FaBehance /></a></li>
+                {/* <li><a target='_blank' href='https://www.behance.net/ianmac__'><FaBehance /></a></li> */}
               </ul>
             </div>
             <span className='line'></span>
             <p>
-            Front-end Engineering graduate with fundamental knowledge of software design, development, and testing. Seeking to utilize a broad creative background with excellent analytical, technical, and programming skills to
-            thrive as a software engineer.
+            I am a Front-end Developer with fundamental knowledge of software design, development, and testing.  Seeking to utilize a broad creative background with excellent analytical, technical, and programming skills to thrive as a developer. Dedicated to delivering innovative solutions and contributing to the success of cutting-edge projects.
             </p>
             <span className='line'></span>
             <p>I run a freelance development/design service called <em>DarkDad</em>. <em>DarkDad</em> offers clients ux/ui designs, web management and support options, custom web application solutions, and custom graphic designs ranging from social media banners, flyers, and website assets</p>
-            <a href='/IanMacResume.pdf'>
+            <a href='/IanMacResume.pdf' target='_blank'>
               <button className='about-button'>RESUME</button>
             </a>
           </div>

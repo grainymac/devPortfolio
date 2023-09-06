@@ -40,7 +40,7 @@ const leftArrowStyles = {
 const sliderStyles = {
     position: "relative",
     height: "100%",
-    border: "15px solid black",
+    border: "15px solid #D7514D",
     borderRadius: "2rem"
 };
 
