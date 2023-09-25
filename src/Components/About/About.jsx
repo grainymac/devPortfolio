@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.sass'
-import Profile from './images/profile.jpg'
+import Profile from './images/profile.png'
 import 'animate.css'
 import { FaTwitter, FaGithub, FaFacebook, FaBehance, FaLinkedinIn } from "react-icons/fa"
 
