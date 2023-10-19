@@ -12,6 +12,7 @@ import 'animate.css'
 
 const Work = () => {
   const slides = [
+    {url: `${darkWeather}`, title: 'InstantMania', github: 'https://instantmania.vercel.app/'},
     {url: `${darkWeather}`, title: 'darkWeather', github: 'https://dark-weather-two.vercel.app/'},
     {url: `${discoverIt}`, title: 'DiscoverIt', github: 'https://discoverit2208.vercel.app/'},
     {url: `${photoPortfolio}`, title: 'Photography Portfolio', github: 'https://imphotos.vercel.app/'},
