@@ -2,7 +2,8 @@ import React from 'react'
 import './About.sass'
 import Profile from './images/profile.png'
 import 'animate.css'
-import { FaTwitter, FaGithub, FaFacebook, FaBehance, FaLinkedinIn } from "react-icons/fa"
+import resume from '../../assets/Ian McIntosh - Resume (FE).pdf'
+import { FaXTwitter, FaGithub, FaFacebook, FaInstagram, FaLinkedinIn, FaThreads } from "react-icons/fa"
 
 
 const About = () => {
@@ -16,9 +17,11 @@ const About = () => {
             <div className='socials'>
               <ul className='social-links'>
                 <li><a target='_blank' href='https://www.linkedin.com/in/ian-mcintosh-texas/'><FaLinkedinIn /></a></li>
-                {/* <li><a target='_blank' href='https://twitter.com/ianmac__'><FaTwitter /></a></li> */}
+                <li><a target='_blank' href='https://x.com/ianmac__'><FaXTwitter /></a></li>
                 <li><a target='_blank' href='https://github.com/grainymac'><FaGithub /></a></li>
                 <li><a target='_blank' href='https://www.facebook.com/profile.php?id=100093465405779'><FaFacebook /></a></li>
+                <li><a target='_blank' href='https://www.instagram.com/__ianmac__'><FaInstagram /></a></li>
+                <li><a target='_blank' href='https://www.threads.net__ianmac__'><FaThreads /></a></li>
                 {/* <li><a target='_blank' href='https://www.behance.net/ianmac__'><FaBehance /></a></li> */}
               </ul>
             </div>
@@ -28,7 +31,7 @@ const About = () => {
             </p>
             <span className='line'></span>
             <p>I run a freelance development/design service called <em>DarkDad</em>. <em>DarkDad</em> offers clients ux/ui designs, web management and support options, custom web application solutions, and custom graphic designs ranging from social media banners, flyers, and website assets.</p>
-            <a href='/IanMacResume.pdf' target='_blank'>
+            <a href={resume} target='_blank'>
               <button className='about-button'>RESUME</button>
             </a>
           </div>
