@@ -2,7 +2,7 @@ import React from 'react'
 import './About.sass'
 import Profile from './images/profile.png'
 import 'animate.css'
-import resume from '../../assets/Ian McIntosh - Resume (FE).pdf'
+import resume from '../../assets/Ian McIntosh - Resume (1).pdf'
 import { FaXTwitter, FaGithub, FaFacebook, FaInstagram, FaLinkedinIn, FaThreads } from "react-icons/fa"
 
 
