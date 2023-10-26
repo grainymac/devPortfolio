@@ -3,7 +3,7 @@ import './About.sass'
 import Profile from './images/profile.png'
 import 'animate.css'
 import resume from '../../assets/Ian McIntosh - Resume (1).pdf'
-import { FaXTwitter, FaGithub, FaFacebook, FaInstagram, FaLinkedinIn, FaThreads } from "react-icons/fa"
+import { FaGithub, FaLinkedinIn } from "react-icons/fa"
 
 
 const About = () => {
@@ -17,12 +17,7 @@ const About = () => {
             <div className='socials'>
               <ul className='social-links'>
                 <li><a target='_blank' href='https://www.linkedin.com/in/ian-mcintosh-texas/'><FaLinkedinIn /></a></li>
-                <li><a target='_blank' href='https://x.com/ianmac__'><FaXTwitter /></a></li>
                 <li><a target='_blank' href='https://github.com/grainymac'><FaGithub /></a></li>
-                <li><a target='_blank' href='https://www.facebook.com/profile.php?id=100093465405779'><FaFacebook /></a></li>
-                <li><a target='_blank' href='https://www.instagram.com/__ianmac__'><FaInstagram /></a></li>
-                <li><a target='_blank' href='https://www.threads.net__ianmac__'><FaThreads /></a></li>
-                {/* <li><a target='_blank' href='https://www.behance.net/ianmac__'><FaBehance /></a></li> */}
               </ul>
             </div>
             <span className='line'></span>
