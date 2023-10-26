@@ -8,12 +8,10 @@ import photoPortfolio from './assets/photographyPortfolio.png'
 import theBored from './assets/theBored.png'
 import rancid from './assets/rancid.png'
 import darkWeather from './assets/darkWeather.png'
-import instantMania from './assets/instantmania.PNG'
 import 'animate.css'
 
 const Work = () => {
   const slides = [
-    {url: `${instantMania}`, title: 'InstantMania', github: 'https://instantmania.vercel.app/'},
     {url: `${darkWeather}`, title: 'darkWeather', github: 'https://dark-weather-two.vercel.app/'},
     {url: `${discoverIt}`, title: 'DiscoverIt', github: 'https://discoverit2208.vercel.app/'},
     {url: `${photoPortfolio}`, title: 'Photography Portfolio', github: 'https://imphotos.vercel.app/'},
