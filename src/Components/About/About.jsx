@@ -2,7 +2,6 @@ import React from 'react'
 import './About.sass'
 import Profile from './images/profile.png'
 import 'animate.css'
-import resume from '../../assets/Ian McIntosh - Resume (1).pdf'
 import { FaGithub, FaLinkedinIn } from "react-icons/fa"
 
 
@@ -26,9 +25,6 @@ const About = () => {
             </p>
             <span className='line'></span>
             <p>I run a freelance development/design service called <em>DarkDad</em>. <em>DarkDad</em> offers clients ux/ui designs, web management and support options, custom web application solutions, and custom graphic designs ranging from social media banners, flyers, and website assets.</p>
-            <a href={resume} target='_blank'>
-              <button className='about-button'>RESUME</button>
-            </a>
           </div>
         </div>
       </div>
