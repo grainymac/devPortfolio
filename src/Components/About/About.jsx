@@ -2,7 +2,9 @@ import React from 'react'
 import './About.sass'
 import Profile from './images/profile.png'
 import 'animate.css'
-import { FaGithub, FaLinkedinIn } from "react-icons/fa"
+import { FaGithub, FaLinkedinIn, FaInstagram, FaTwitter, FaReddit } from "react-icons/fa"
+import { library } from '@fortawesome/fontawesome-svg-core'
+import threads from './images/threads.svg'
 
 
 const About = () => {
@@ -17,6 +19,10 @@ const About = () => {
               <ul className='social-links'>
                 <li><a target='_blank' href='https://www.linkedin.com/in/ian-mcintosh-texas/'><FaLinkedinIn /></a></li>
                 <li><a target='_blank' href='https://github.com/grainymac'><FaGithub /></a></li>
+                <li><a target='_blank' href='https://www.instagram.com/__ianmac__/'><FaInstagram /></a></li>
+                <li><a href='https://www.threads.net/@__ianmac__' target='_blank'><img className='about-icon' src={threads} /></a></li>
+                <li><a target='_blank' href='https://twitter.com/ianmac__'><FaTwitter /></a></li>
+                <li><a target='_blank' href='https://www.reddit.com/user/ianmac__'><FaReddit /></a></li>
               </ul>
             </div>
             <span className='line'></span>
