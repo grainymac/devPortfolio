@@ -31,6 +31,8 @@ const About = () => {
             </p>
             <span className='line'></span>
             <p>I run a freelance development/design service called <em>DarkDad</em>. <em>DarkDad</em> offers clients ux/ui designs, web management and support options, custom web application solutions, and custom graphic designs ranging from social media banners, flyers, and website assets.</p>
+            <span className='line'></span>
+            <a href='https://www.ianmac.live/' target='_blank'>[My Photography Portfolio]</a>
           </div>
         </div>
       </div>
