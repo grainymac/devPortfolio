@@ -5,6 +5,7 @@ import 'animate.css'
 import { FaGithub, FaLinkedinIn, FaInstagram, FaTwitter, FaReddit } from "react-icons/fa"
 import { library } from '@fortawesome/fontawesome-svg-core'
 import threads from './images/threads.svg'
+import Resume from '../../../public/Resume.pdf'
 
 
 const About = () => {
@@ -33,6 +34,7 @@ const About = () => {
             <p>I run a freelance development/design service called <em>DarkDad</em>. <em>DarkDad</em> offers clients ux/ui designs, web management and support options, custom web application solutions, and custom graphic designs ranging from social media banners, flyers, and website assets.</p>
             <span className='line'></span>
             <a href='https://www.ianmac.live/' target='_blank'>[My Photography Portfolio]</a>
+            <a href={Resume} target='_blank'>[My Resume]</a>
           </div>
         </div>
       </div>
